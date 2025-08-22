@@ -3,8 +3,8 @@ from telebot import types
 from telebot_calendar import Calendar, CallbackData, ENGLISH_LANGUAGE
 import datetime
 
-token = 'TOKEN'
-bot = telebot.TeleBot('TOKEN')
+token = '7586488756:AAF5SnBtXGBLMO4ymgEZ9ebinozsL9GtsFk'
+bot = telebot.TeleBot('7586488756:AAF5SnBtXGBLMO4ymgEZ9ebinozsL9GtsFk')
 calendar = Calendar(language=ENGLISH_LANGUAGE)
 calendar_1 = CallbackData('calendar_1', 'action', 'year', 'month', 'day')
 now = datetime.datetime.now()
